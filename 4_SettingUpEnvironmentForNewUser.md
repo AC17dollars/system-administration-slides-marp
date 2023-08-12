@@ -1,3 +1,12 @@
+---
+marp: true
+paginate: true
+author: Abhinav Chalise, Saugat Neupane
+headingDivider: 2
+footer: 2023-08-13
+header: Abhinav Chalise, Saugat Neupane
+---
+
 # Setting up Operational Environment for a New User
 
 ## Role of a System Administrator
@@ -13,6 +22,8 @@ A system administrator is required to set up the operational environment for a n
 2. **Assigning Password:** Set a password for the new user using the `passwd` command.
 
    Example: `sudo passwd newuser`
+
+---
 
 3. **Adding to a Group:** Assign the user to a specific group, such as `general_user`.
 
